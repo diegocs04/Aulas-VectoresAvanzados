@@ -2,10 +2,10 @@ package aulaVectoresAvanzados;
 
 public class Aula {
 
-	private Aula aula[];
+	private Aula alumnos[];
 	
 	public Aula() {
 		
-		aula = new Aula[5];
+		alumnos = new Aula[5];
 	}
 }
