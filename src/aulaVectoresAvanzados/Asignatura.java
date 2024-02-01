@@ -6,6 +6,12 @@ public class Asignatura {
 	private int nota1;
 	private int nota2;
 	private int nota3;
+	
+	public Asignatura(String nombre,int nota1,int nota2,int nota3) {
+		
+		
+	}
+	
 	public String getNombre() {
 		return nombre;
 	}
