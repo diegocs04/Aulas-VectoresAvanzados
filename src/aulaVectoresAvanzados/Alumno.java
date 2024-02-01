@@ -10,8 +10,6 @@ public class Alumno {
 	private Asignatura asignatura[];
 	private int contador;
 
-	
-
 	public Alumno(String nombre, String apellidos, int telefono) {
 		this.nombre = nombre;
 		this.apellidos = apellidos;
@@ -22,9 +20,9 @@ public class Alumno {
 	}
 
 	public void addAsignatura(Asignatura calificaciones) {
-			
-		if(contador<5) {
-			asignatura[contador]=calificaciones;
+
+		if (contador < 5) {
+			asignatura[contador] = calificaciones;
 			contador++;
 		}
 	}
@@ -71,10 +69,8 @@ public class Alumno {
 
 	@Override
 	public String toString() {
-		return "Alumno => NOMBRE = " + nombre + ", APELLIDOS = " + apellidos + ", TELÉFONO = " + telefono + ", ASIGNATURA = "
-				+ Arrays.toString(asignatura);
+		return "Alumno => NOMBRE = " + nombre + ", APELLIDOS = " + apellidos + ", TELÉFONO = " + telefono
+				+ ", ASIGNATURA = " + Arrays.toString(asignatura);
 	}
-	
-	
 
 }
