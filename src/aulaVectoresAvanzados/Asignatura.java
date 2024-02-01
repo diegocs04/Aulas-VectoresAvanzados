@@ -49,7 +49,8 @@ public class Asignatura {
 
 	@Override
 	public String toString() {
-		return "Asignatura => NOMBRE = " + nombre + ", NOTA PRIMER TRIM. = " + nota1 + ", NOTA SEGUNDO TRIM. = " + nota2 + ",NOTA TERCER TRIM.  = " + nota3;
+		return "Asignatura => NOMBRE = " + nombre + ", NOTA PRIMER TRIM. = " + nota1 + ", NOTA SEGUNDO TRIM. = " 
+				+ nota2 + ",NOTA TERCER TRIM.  = " + nota3;
 	}
 	
 	
