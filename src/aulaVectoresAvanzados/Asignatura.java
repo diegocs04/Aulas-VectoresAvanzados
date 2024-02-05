@@ -33,7 +33,7 @@ public class Asignatura {
 	}
 
 	public void setNota1(int asignatura, int nota1) {
-		
+		this.nota1=nota1;
 	}
 
 	public int getNota2() {
