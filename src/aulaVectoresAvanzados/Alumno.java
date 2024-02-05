@@ -16,8 +16,15 @@ public class Alumno {
 		this.telefono = telefono;
 		this.contador = 0;
 		asignatura = new Asignatura[4];
+		asignatura[0] = new Asignatura("PROG");
+		asignatura[1] = new Asignatura("BBDD");
+		asignatura[2] = new Asignatura("FOL");
+		asignatura[3] = new Asignatura("ENTORNOS");
+
 
 	}
+	
+	
 
 	public void addAsignatura(Asignatura calificaciones) {
 
@@ -69,8 +76,8 @@ public class Alumno {
 
 	@Override
 	public String toString() {
-		return "Alumno => NOMBRE = " + nombre + ", APELLIDOS = " + apellidos + ", TELÉFONO = " + telefono
-				+ ", ASIGNATURA = " + Arrays.toString(asignatura);
+		return "\n NOMBRE = " + nombre + ", APELLIDOS = " + apellidos + ", TELÉFONO = " + telefono
+				+ "|| [ASIGNATURAS]" + Arrays.toString(asignatura);
 	}
 
 }
